@@ -1,0 +1,11 @@
+python celeba_gender_classifier.py \
+  --data-dir ./ \
+  --output-dir ./checkpoints \
+  --batch-size 64 \
+  --img-size 128 \
+  --warmup-epochs 3 \
+  --finetune-epochs 7 \
+  --lr-head 1e-3 \
+  --lr-ft 1e-4 \
+  --weight-decay 1e-5 \
+  --seed 42
