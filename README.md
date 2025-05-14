@@ -6,16 +6,16 @@ This repository includes four files (1-4) and a model (5):
 5. best_model.pth # This is the refined model.
 
 If you would like to review the results, you can view the celeba_gender_classifier.ipynb file.
-If you would like to test the Python code, you can run "bash run.sh" in a Linux terminal.
+If you would like to test the Python code, you can run `bash run.sh` in a Linux terminal.
 
-SUMMARY
+## SUMMARY
 
 Model & Training Procedure
 Backbone: Pre-trained MobileNetV2 (ImageNet).
 Head replacement: Final 1000-way classifier swapped for a 2-way linear layer.
 Two-phase training:
-Warm-up (3 epochs): Freeze all backbone layers, train only the new head.
-Fine-tuning (7 epochs): Unfreeze entire network, train full model.
+- Warm-up (3 epochs): Freeze all backbone layers, train only the new head.
+- Fine-tuning (7 epochs): Unfreeze entire network, train full model.
 
 === Warmup Phase ===
 Warmup 1/3 • Loss 0.2662 • Acc 0.9145 • F1 0.8983
