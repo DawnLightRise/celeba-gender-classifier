@@ -12,3 +12,6 @@ If you would like to test the Python code, you can run
 bash run.sh
 ```
 in a Linux terminal.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
