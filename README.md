@@ -1,4 +1,4 @@
-This package provides a gender classification model trained on the CelebA dataset. This repository includes four files (1–4) and a model (5):
+This repository provides a gender classification model trained on the CelebA dataset. It includes one summary file (1), three scripts (2–4), and a model (5):
 
 1. [SUMMARY](SUMMARY)  
 2. [celeba_gender_classifier.ipynb](celeba_gender_classifier.ipynb)  
