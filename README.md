@@ -7,4 +7,8 @@ This package provides a gender classification model trained on the CelebA datase
 5. [best_model.pth](best_model.pth)  # This is the refined model.
 
 If you would like to review the results, you can view the [celeba_gender_classifier.ipynb](celeba_gender_classifier.ipynb) file.  
-If you would like to test the Python code, you can run `bash run.sh` in a Linux terminal.
+If you would like to test the Python code, you can run
+```
+bash run.sh
+```
+in a Linux terminal.
