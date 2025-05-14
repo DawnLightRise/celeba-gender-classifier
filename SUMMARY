@@ -21,6 +21,8 @@ Finetune 5/7 • Loss 0.0149 • Acc 0.9857 • F1 0.9832
 Finetune 6/7 • Loss 0.0113 • Acc 0.9864 • F1 0.9839
 Finetune 7/7 • Loss 0.0091 • Acc 0.9875 • F1 0.9853
 
+Best valid Acc: 0.9875 (saved to best_model.pth)
+
 === Test Set Metrics ===
 Accuracy : 0.9811
 Precision: 0.9819
