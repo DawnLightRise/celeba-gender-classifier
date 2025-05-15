@@ -1,4 +1,4 @@
-This repository provides a gender classification model trained on the publicly available [CelebA dataset](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset/data). It includes one summary file (1), three scripts (2–4), and a model (5):
+This repository provides a gender classification model trained on the publicly available [CelebA dataset](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset/data). It includes one summary file (1), three scripts (2–4), and a refined model (5):
 
 1. [SUMMARY](SUMMARY)  
 2. [celeba_gender_classifier.ipynb](celeba_gender_classifier.ipynb)  
